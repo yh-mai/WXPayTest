@@ -4,7 +4,7 @@
 		<!-- <view class="title1">手机快捷登录</view>
 		<view class="title2">您好！欢迎登录链尚武夷</view> -->
 		<u-form :model="form" ref="uForm"  label-width="110rpx" :label-style="labelStyle">
-			<u-form-item label="url" prop="url"><u-input v-model="form.url" placeholder="请输入url" /></u-form-item>
+			<u-form-item label="url" prop="url"><u-input maxlength="-1" v-model="form.url" placeholder="请输入url" /></u-form-item>
 			<!-- <u-form-item label="手机号" prop="phone"><u-input v-model="form.phone" placeholder="请输入手机号" /></u-form-item> -->
 			<!-- <u-form-item label="验证码" prop="code"><u-input v-model="form.code" placeholder="请输入验证码" /><text slot="right" class="codeBtnStyle" @tap="getCode">{{tips}}</text></u-form-item> -->
 		</u-form>

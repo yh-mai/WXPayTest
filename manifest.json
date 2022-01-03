@@ -1,6 +1,6 @@
 {
     "name" : "H5project",
-    "appid" : "__UNI__B5E1014",
+    "appid" : "__UNI__AE0906C",
     "description" : "多平台快速开发的UI框架",
     "versionName" : "1.8.4",
     "versionCode" : "100",
@@ -147,7 +147,8 @@
                     }
                 }
             }
-        }
+        },
+        "domain" : "https://www.tronth.com"
     }
 }
 // "h5" : {
